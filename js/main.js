@@ -40,6 +40,7 @@
   function cardHTML(a, i) {
     return `<article class="card" data-cat="${a.cat}" data-i="${i}">
       <div class="card__img" style="background:${a.color}">
+        <img src="img/art${i + 1}.jpg" alt="${esc(a.title)}" loading="lazy" width="800" height="500">
         <span class="tag">${esc(a.tag)}</span>
       </div>
       <div class="card__body">
