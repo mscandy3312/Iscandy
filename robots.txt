@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mscandy3312.github.io/Iscandy/sitemap.xml
