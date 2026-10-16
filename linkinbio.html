@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OlaViral | Enlaces</title>
+<meta name="description" content="Todos los enlaces de OlaViral: la web, TikTok, Instagram, YouTube y más. El contenido que todo el mundo comparte.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://iscandy.vercel.app/linkinbio.html">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="OlaViral | Enlaces">
+<meta property="og:description" content="El contenido viral que todo el mundo comparte.">
+<meta property="og:image" content="https://iscandy.vercel.app/img/hero.jpg">
+<meta property="og:url" content="https://iscandy.vercel.app/linkinbio.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="linkbio-body">
+
+<main class="linkbio">
+  <div class="linkbio__card">
+    <img class="linkbio__avatar" src="img/hero.jpg" alt="OlaViral" width="120" height="120">
+    <h1 class="linkbio__name">OlaViral</h1>
+    <p class="linkbio__tag">🔥 Lo viral, antes que nadie</p>
+
+    <a class="linkbio__btn linkbio__btn--main" href="index.html">
+      <span>🌐</span> Entrar a la web
+    </a>
+
+    <nav class="linkbio__links">
+      <a class="linkbio__btn" href="#" data-social="TikTok">
+        <span>🎵</span> TikTok
+      </a>
+      <a class="linkbio__btn" href="#" data-social="Instagram">
+        <span>📸</span> Instagram
+      </a>
+      <a class="linkbio__btn" href="#" data-social="YouTube">
+        <span>▶️</span> YouTube
+      </a>
+      <a class="linkbio__btn" href="#" data-social="X">
+        <span>𝕏</span> X
+      </a>
+      <a class="linkbio__btn" href="https://wa.me/?text=Descubre%20OlaViral%20https%3A%2F%2Fiscandy.vercel.app%2F" target="_blank" rel="noopener">
+        <span>💬</span> Compartir por WhatsApp
+      </a>
+    </nav>
+
+    <section class="linkbio__latest">
+      <h2>Últimos artículos</h2>
+      <div id="bioLatest"></div>
+    </section>
+
+    <p class="linkbio__legal">
+      <a href="privacidad.html">Privacidad</a> · <a href="cookies.html">Cookies</a> · <a href="contacto.html">Contacto</a>
+    </p>
+  </div>
+</main>
+
+<script src="data/articles.js"></script>
+<script src="js/main.js"></script>
+<script>
+(function(){
+  var box = document.getElementById("bioLatest");
+  if(!box || !window.OLAVIRAL_ARTICLES) return;
+  box.innerHTML = window.OLAVIRAL_ARTICLES.slice(0,5).map(function(a){
+    var s = window.olaviralSlug ? window.olaviralSlug(a.title) : "#";
+    return '<a class="linkbio__btn linkbio__btn--sm" href="'+s+'.html">'+a.title+'</a>';
+  }).join("");
+})();
+</script>
+</body>
+</html>

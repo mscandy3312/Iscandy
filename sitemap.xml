@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://iscandy.vercel.app/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://iscandy.vercel.app/article.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://iscandy.vercel.app/linkinbio.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://iscandy.vercel.app/contacto.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://iscandy.vercel.app/aviso-legal.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://iscandy.vercel.app/privacidad.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://iscandy.vercel.app/cookies.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://iscandy.vercel.app/el-reto-que-rompio-internet-esta-semana-y-nadie-sabe-por-que.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/15-curiosidades-que-parecen-falsas-pero-son-ciertas.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/las-10-ciudades-mas-baratas-para-vivir-en-2026.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/por-que-todo-el-mundo-esta-dejando-de-dormir-8-horas.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/los-7-errores-que-casi-todos-cometen-al-usar-el-movil.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/20-frases-que-todos-entendemos-y-nadie-sabe-de-donde-vienen.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/el-animal-que-casi-nadie-ve-y-esta-por-todas-partes.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/las-12-peliculas-mas-esperadas-de-2026-y-donde-verlas.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/la-historia-viral-de-la-abuela-que-aprendio-a-programar.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/7-trucos-de-ahorro-que-los-ricos-no-quieren-que-sepas.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/por-que-el-pan-de-antes-sabia-mejor-la-razon-real.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/el-video-que-hace-llorar-a-medio-tiktok-esta-semana.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/12-inventos-que-ya-existen-y-parecen-ciencia-ficcion.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/las-15-series-que-todo-el-mundo-esta-viendo-este-mes.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/por-que-los-gatos-se-quedan-mirando-a-la-nada-resuelto.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/el-truco-de-30-segundos-que-se-hizo-viral-en-las-cocinas.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/10-datos-sobre-el-espacio-que-te-dejaran-sin-palabras.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/la-razon-real-por-la-que-olvidamos-los-nombres.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/el-antes-y-despues-de-las-ciudades-mas-famosas-del-mundo.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/el-gesto-viral-que-estan-copiando-los-famosos-esta-semana.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://iscandy.vercel.app/8-mitos-sobre-el-cerebro-que-la-ciencia-ya-ha-desmontado.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -5,27 +5,37 @@ Sitio estático (HTML/CSS/JS, sin dependencias) pensado para ganar con **Google 
 ## Archivos
 ```
 viral-ola/
-├── index.html        Portada: hero, tendencias, listas, curiosidades, newsletter
-├── article.html      Plantilla de artículo (con anuncios en el contenido)
-├── css/styles.css    Estilos responsive
-├── js/main.js        Datos de artículos, filtros, búsqueda, compartir, cookies
-├── robots.txt        SEO
-├── sitemap.xml       SEO
-└── img/              Imágenes (añade og-cover.jpg 1200x630)
+├── index.html          Portada: hero, tendencias, listas, curiosidades, newsletter
+├── linkinbio.html      Página "link in bio" para TikTok/Instagram
+├── <slug>.html         Un archivo por artículo (generados; SEO con URL propia)
+├── article.html        Redirección (compatibilidad con enlaces antiguos)
+├── privacidad.html · cookies.html · aviso-legal.html · contacto.html
+├── css/styles.css      Estilos responsive
+├── data/articles.js    ☑ FUENTE ÚNICA de los artículos
+├── js/main.js          Filtros, búsqueda, compartir, cookies, formularios
+├── tools/build.js      Genera las páginas de artículo + sitemap.xml
+├── guiones-video.md    Plantillas de guiones para TikTok/Reels/Shorts
+├── robots.txt · sitemap.xml
+└── img/                Imágenes
 ```
 
-## Puesta en marcha (5 minutos)
+## Añadir artículos (flujo)
+1. Edita el array `ARTICLES` en **`data/articles.js`** (añade un objeto nuevo).
+2. Añade su imagen como `img/artN.jpg` (N = posición del artículo empezando en 1).
+3. Ejecuta `node tools/build.js` → genera el `.html` de cada artículo y actualiza `sitemap.xml`.
+4. Revisa cambios y publica: `git add . && git commit -m "nuevo articulo" && git push`.
+
+> El artículo aparece **automáticamente** en la portada (main.js lee `data/articles.js`).
+
+## Puesta en marcha
 1. Abre `index.html` en el navegador para verlo.
-2. Sube la carpeta a hosting gratuito: **Netlify**, **Cloudflare Pages** o **GitHub Pages**.
-3. Compra/usa un dominio propio (mejora la aprobación de AdSense). Actualiza las URLs `https://ejemplo.com` en los `<link rel="canonical">`, OG, `robots.txt` y `sitemap.xml`.
+2. La web ya está en Vercel: **https://iscandy.vercel.app**
 
-## 1) Activar Google AdSense
-1. Solicita cuenta en https://adsense.google.com (necesitas dominio propio y contenido original).
-2. Sustituye **en todos los archivos** `ca-pub-0000000000000000` por tu ID real.
-3. Sustituye los `data-ad-slot="1111..."` por los bloques que crees en AdSense.
-4. El banner de cookies ya está implementado (obligatorio legalmente en la UE). Los anuncios se cargan solo tras aceptar cookies.
-
-> Reglas clave para que te aprueben: contenido original, páginas legales (Privacidad, Cookies, Aviso legal, Contacto) y tráfico real. Crea esas 4 páginas antes de solicitar.
+## 1) Activar Google AdSense (ya configurado)
+- ID de editor: `ca-pub-5991751155826241` (en todas las páginas).
+- Unidades: auto `4573000864`, in-article `1793785124`, matome `3128802116`.
+- El banner de cookies carga los anuncios solo tras aceptar (requisito legal UE).
+- Falta únicamente la **aprobación** del sitio por parte de Google.
 
 ## 2) Activar afiliados
 - **Amazon Associates**: https://afiliados.amazon.es → sustituye `TU_TAG-20` en `index.html` y `article.html`.
@@ -33,7 +43,7 @@ viral-ola/
 - Los enlaces ya llevan `rel="nofollow sponsored"` (buena práctica y obligatorio).
 
 ## 3) Añadir contenido (lo más importante)
-Edita el array `ARTICLES` dentro de `js/main.js`. Cada artículo nuevo = más páginas indexables = más impresiones de anuncios. Para máximo ingreso, crea también su `.html` real por artículo (copia `article.html`).
+Ver la sección "Añadir artículos (flujo)" arriba: edita `data/articles.js` y ejecuta `node tools/build.js`.
 
 ## 4) Captar tráfico (donde está el dinero)
 - Publica cada artículo en **TikTok, Reels, Shorts y X** con enlace a la web.
