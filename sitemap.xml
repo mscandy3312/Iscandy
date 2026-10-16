@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mscandy3312.github.io/Iscandy/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://mscandy3312.github.io/Iscandy/article.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mscandy3312.github.io/Iscandy/contacto.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mscandy3312.github.io/Iscandy/aviso-legal.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://mscandy3312.github.io/Iscandy/privacidad.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://mscandy3312.github.io/Iscandy/cookies.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://iscandy.vercel.app/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://iscandy.vercel.app/article.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://iscandy.vercel.app/contacto.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://iscandy.vercel.app/aviso-legal.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://iscandy.vercel.app/privacidad.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://iscandy.vercel.app/cookies.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
